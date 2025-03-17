@@ -1,14 +1,14 @@
 def plus(a, b):
-    return a+b
+    return float(a)+float(b)
 
 def minus(a, b):
-    return a-b
+    return float(a)-float(b)
 
 def mul(a, b):
-    return a*b
+    return float(a)*float(b)
 
 def divide(a, b):
-    return a/b
+    return float(a)/float(b)
 
 print("\n첫번째 숫자를 입력하세요")
 input1 = input('입력: ')
